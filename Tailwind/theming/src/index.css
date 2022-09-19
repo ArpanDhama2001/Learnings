@@ -6,9 +6,68 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all 1s ease;
 }
 
-body {
-  background: #111;
-  color: #fff;
+@layer base {
+  :root {
+    --color-fill: 16, 24, 32;
+    --color-muted: 238, 218, 234;
+    --color-base: 207, 107, 221;
+    --color-outline: 207, 107, 221;
+    --color-inverted: 238, 218, 234;
+    --color-hover: 238, 218, 234;
+    --color-accent: 41, 33, 54;
+    --color-button-fill: 41, 33, 54;
+  }
+  .aether {
+    --color-fill: 16, 24, 32;
+    --color-muted: 238, 218, 234;
+    --color-base: 207, 107, 221;
+    --color-outline: 207, 107, 221;
+    --color-inverted: 238, 218, 234;
+    --color-hover: 238, 218, 234;
+    --color-accent: 41, 33, 54;
+    --color-button-fill: 41, 33, 54;
+  }
+  .modern {
+    --color-fill: 255, 255, 255;
+    --color-muted: 183, 183, 183;
+    --color-base: 207, 107, 221;
+    --color-outline: 207, 107, 221;
+    --color-inverted: 0, 0, 0;
+    --color-hover: 0, 0, 0;
+    --color-accent: 236, 236, 236;
+    --color-button-fill: 236, 236, 236;
+  }
+  .blueberry {
+    --color-fill: 218, 224, 245;
+    --color-muted: 146, 164, 190;
+    --color-base: 80, 100, 119;
+    --color-outline: 80, 100, 119;
+    --color-inverted: 80, 100, 119;
+    --color-hover: 80, 100, 119;
+    --color-button-fill: 193, 199, 223;
+    --color-accent: 193, 199, 223;
+  }
+  .darling {
+    --color-fill: 254, 200, 205;
+    --color-muted: 255, 255, 255;
+    --color-base: 163, 0, 0;
+    --color-outline: 242, 186, 189;
+    --color-inverted: 255, 255, 255;
+    --color-hover: 255, 255, 255;
+    --color-button-fill: 242, 186, 189;
+    --color-accent: 242, 186, 189;
+  }
+  .menthol {
+    --color-fill: 0, 193, 140;
+    --color-muted: 255, 255, 255;
+    --color-base: 24, 101, 68;
+    --color-outline: 24, 101, 68;
+    --color-inverted: 24, 101, 68;
+    --color-hover: 24, 101, 68;
+    --color-accent: 41, 33, 54;
+    --color-button-fill: 23, 174, 125;
+  }
 }
