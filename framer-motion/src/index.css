@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  color: white;
+  /* background: linear-gradient(250deg, #7b2ff7, #f107a3); */
+  background-color: #222;
+  background-repeat: no-repeat;
+}
